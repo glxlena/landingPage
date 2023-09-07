@@ -1,0 +1,131 @@
+.content-body{
+    background-image: url(capa.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content-header{
+    background-color: #ff8548;
+    color: #311102;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.content-main{
+    background-color: rgba(255, 255, 255, 0.616);
+    background-size: cover;
+    background-repeat: repeat;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(54, 18, 2);
+    color: #311102;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2{
+    color: #311102;
+}
+
+h3{
+    color: #311102;
+}
+
+.paragrafo{
+    font-size: 20px;
+    color: #311102;
+}
+
+#forms{
+    text-align: center;
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(54, 18, 2);
+}
+
+.content-footer{
+    background-color: #311102;
+    color: #FFCC99;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.preco, .titulo{
+    background: #311102;
+    color: #FFCC99;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.content-ul {
+    list-style: none;
+}
+
+.content-li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.content-link {
+    text-decoration: none;
+    color:rgb(54, 18, 2)
+}
+
+#conteudos{
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(54, 18, 2);
+    display: flex;
+}
+
+#esquerda, #direita {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#esquerda{
+    color:#311102;
+    font-size: 25px;
+    text-align: left;
+}
+
+#direita{
+    text-align: center;
+}
+
+.card-body{
+    width: 20rem;
+    height: 20rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#us{
+    text-align: center;
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(54, 18, 2);
+    font-size: 15px;
+}
